@@ -1,0 +1,83 @@
+{
+    "OpenLuckToken": {
+        "name": "OpenLuckToken",
+        "symbol": "LUCK",
+        "mainEndpointId": "2",
+        "premintAddress": "0x5b770F460978C456d69bC46463dfda71FEEE60AD",
+        "premintAmount": "100000000",
+        "globalSupply": "1000000000"
+    },
+    "vsOpenLuckToken": {
+        "name": "veOpenLuckToken",
+        "symbol": "veLUCK"
+    },
+    "gasAmounts": {
+        "1": "600000",
+        "2": "600000"
+    },    
+    "PriceFeeds": {
+        "eth": "",
+        "bsc": [
+            {
+                "name": "BNB/USD",                
+                "value": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE",
+                "decimals": 18
+            },
+            {
+                "name": "ETH/USD",                
+                "value": "0x9ef1B8c0E4F7dc8bF5719Ea496883DC6401d5b2e",
+                "decimals": 18
+            },
+            {
+                "name": "USDC/USD",                
+                "value": "0x51597f405303C4377E36123cBc172b13269EA163",
+                "decimals": 18
+            },
+            {
+                "name": "USDT/USD",                
+                "value": "0xB97Ad0E74fa7d920791E90258A6E2085088b4320",
+                "decimals": 18
+            },
+            {
+                "name": "BUSD/USD",                
+                "value": "0xcBb98864Ef56E9042e7d2efef76141f15731B82f",
+                "decimals": 18
+            }
+        ],      
+        "rinkeby-testnet": "",
+        "bsctestnet-testnet": [
+            {
+                "name": "BNB/USD",                
+                "value": "0x2514895c72f50D8bd4B4F9b1110F0D6bD2c97526",
+                "decimals": 18
+            },
+            {
+                "name": "ETH/USD",                
+                "value": "0x143db3CEEfbdfe5631aDD3E50f7614B6ba708BA7",
+                "decimals": 18
+            },
+            {
+                "name": "USDC/USD",                
+                "value": "0x90c069C4538adAc136E051052E14c1cD799C41B7",
+                "decimals": 18
+            },
+            {
+                "name": "USDT/USD",                
+                "value": "0xEca2605f0BCF2BA5966372C99837b1F182d3D620",
+                "decimals": 18
+            },
+            {
+                "name": "BUSD/USD",                
+                "value": "0x9331b55D9830EF609A2aBCfAc0FBCE050A52fdEa",
+                "decimals": 18
+            }
+        ]
+    },
+    "CryptoPunk": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+    "MultiSig": {
+        "eth": "0x4353BB08b032BC2a93A7AEd78AC1DA5d325E55EC",
+        "bsc": "0x083b9f29f874730bcb36298721bc5b59c5F4c853",      
+        "rinkeby-testnet": "0xF792E6552D22243457ea0916aeD7ab9f2F710299",
+        "bsctestnet-testnet": ""
+    }
+}
